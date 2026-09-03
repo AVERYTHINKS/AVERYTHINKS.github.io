@@ -38,7 +38,7 @@ social:
   email: # change to your email address
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
-
+    - https://averythinks.github.io
 # Site Verification Settings
 webmaster_verifications:
   google: # fill in your Google verification code
