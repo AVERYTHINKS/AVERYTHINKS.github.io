@@ -1,0 +1,33 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* AveryThinks custom palette */
+:root {
+  --main-bg: #0F0F0F !important;
+  --sidebar-bg: #1A1A1A !important;
+  --topbar-bg: #0F0F0F !important;
+  --main-border-color: #2A2A2A !important;
+  --text-color: #F1F1F1 !important;
+  --heading-color: #FCFCFC !important;
+
+  --link-color: #FF9933 !important;
+  --sidebar-active-color: #FF9933 !important;
+  --toc-highlight: #FF9933 !important;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
