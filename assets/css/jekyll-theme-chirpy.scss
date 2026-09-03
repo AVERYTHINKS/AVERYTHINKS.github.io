@@ -135,3 +135,26 @@ body {
 
   opacity: 0.65;
 }
+/* AveryThinks homepage cards */
+#post-list .card {
+  background: #1A1A1A !important;
+  border: 1px solid #2A2A2A !important;
+  border-radius: 8px !important;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+#post-list .card:hover {
+  transform: translateY(-3px);
+
+  background: #202020 !important;
+  border-color: #FF9933 !important;
+
+  box-shadow:
+    0 12px 28px rgb(0 0 0 / 30%),
+    0 0 0 1px rgb(255 153 51 / 12%) !important;
+}
