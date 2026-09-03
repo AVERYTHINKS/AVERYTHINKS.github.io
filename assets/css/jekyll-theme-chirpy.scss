@@ -16,16 +16,55 @@
 
 /* AveryThinks custom palette */
 :root {
+  /* Main surfaces */
   --main-bg: #0F0F0F !important;
-  --sidebar-bg: #1A1A1A !important;
-  --topbar-bg: #0F0F0F !important;
+  --mask-bg: #2A2A2A !important;
   --main-border-color: #2A2A2A !important;
-  --text-color: #F1F1F1 !important;
-  --heading-color: #FCFCFC !important;
 
+  /* Text */
+  --text-color: #F1F1F1 !important;
+  --text-muted-color: rgb(241 241 241 / 60%) !important;
+  --text-muted-highlight-color: #F1F1F1 !important;
+  --heading-color: #FCFCFC !important;
+  --label-color: #F1F1F1 !important;
+
+  /* Accent */
   --link-color: #FF9933 !important;
-  --sidebar-active-color: #FF9933 !important;
+  --link-underline-color: rgb(255 153 51 / 55%) !important;
   --toc-highlight: #FF9933 !important;
+
+  /* Sidebar */
+  --sidebar-bg: #1A1A1A !important;
+  --sidebar-border-color: #2A2A2A !important;
+  --sidebar-active-color: #FF9933 !important;
+  --sidebar-hover-bg: #2A2A2A !important;
+  --sidebar-btn-bg: #2A2A2A !important;
+  --site-title-color: #FCFCFC !important;
+  --site-subtitle-color: #F1F1F1 !important;
+
+  /* Topbar */
+  --topbar-bg: rgb(15 15 15 / 85%) !important;
+  --search-border-color: #2A2A2A !important;
+
+  /* Cards */
+  --card-bg: #1A1A1A !important;
+  --card-header-bg: #2A2A2A !important;
+  --card-hover-bg: #2A2A2A !important;
+
+  /* Menus */
+  --menu-bg: #1A1A1A !important;
+  --menu-border-color: #2A2A2A !important;
+  --menu-highlight-bg: #2A2A2A !important;
+
+  /* Tags */
+  --tag-border: #2A2A2A !important;
+  --tag-hover: #FF9933 !important;
+
+  /* Code */
+  --highlight-bg-color: #1A1A1A !important;
+  --language-border-color: #2A2A2A !important;
+  --inline-code-bg: #2A2A2A !important;
+  --code-color: #F1F1F1 !important;
 }
 
 body {
